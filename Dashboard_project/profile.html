@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <!---------- Normalize File -------->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!---------- CSS File -------->
+    <link rel="stylesheet" href="css/style.css" >
+    <!---------- Font Awesome -------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!---------- Google Fonts -------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+        <div class="sidebar">
+            <h3>Achafrar</h3>
+            <ul>
+                <li >
+                    <a  href="index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span> 
+                    </a>
+                </li>
+                <li >
+                    <a href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span> 
+                    </a>
+                </li>
+                <li >
+                    <a class="active" href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>Profile</span> 
+                    </a>
+                </li>
+                <li >
+                    <a href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span> 
+                    </a>
+                </li>
+                <li >
+                    <a href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span> 
+                    </a>
+                </li>
+                <li >
+                    <a href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span>Friends</span> 
+                    </a>
+                </li>
+                <li >
+                    <a href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>Files</span> 
+                    </a>
+                </li>
+                <li >
+                    <a href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span>Plans</span> 
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <!-- start head -->
+            <div class="header">
+                <form action="">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" placeholder="Type A Keyword" >
+                </form>
+                <div class="avatar">
+                    <i class="fa-regular fa-bell fa-lg"></i>
+                    <span class="notific"></span>
+                    <img src="imgs/avatar.png" alt="">
+                </div>
+            </div>
+            <!-- end head -->
+            
+            <h1 class="main-heading">Profile</h1>
+            <div class="profile-page">
+                <!-- start overview -->
+                <div class="overview">
+                    <div class="view-avatar">
+                        <img src="imgs//avatar.png" alt="">
+                        <h4>Tayib Achafrar</h4>
+                        <div class="level">
+                            <span>Level 20</span>
+                            <div class="progress">
+                                <span style="width: 70%"></span>
+                            </div>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="rating-num">550 rating</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="view-info">
+                        <!-- strat general info -->
+                       
+                        <div class="general-info">
+                            <div class="text">
+                                <p class="title">General Information</p>
+                                <p class="name">Full Name: <span>Tayib Achafrar</span> </p>
+                                <p class="country"> Country: <span>Morocco</span> </p>
+                            </div>
+                            <div class="gender-site">
+                                <p class="gender-title"> <span>Gender:</span> Male</p>
+                                <label>
+                                    <input class="toggle-checkbox" type="checkbox" checked>
+                                    <div class="toggle-switch"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <!-- end general info -->
+
+                        <!-- start personal info -->
+                        <div class="personal-info">
+                            <div class="text">
+                                <p class="title">Personal Information</p>
+                                <p class="email">Email:<span>o@nn.sa </span> </p>
+                                <p class="date"> Date Of Birth: <span>01/01/2002</span> </p>
+                            </div>
+                            <div class="phone-site">
+                                <p class="phone-title"> <span>Phone:</span>+212 634984522</p>
+                                <label>
+                                    <input class="toggle-checkbox" type="checkbox">
+                                    <div class="toggle-switch"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <!-- end personal info -->
+
+                        <!-- start Job Information -->
+                        <div class="job-info">
+                            <div class="text">
+                                <p class="title">Job Information</p>
+                                <p class="job-title">Title:<span> Full Stack Developer </span> </p>
+                                <p class="experience"> Years Of Experience: <span>+2</span> </p>
+                            </div>
+                            <div class="python-site">
+                                <p class="python-title"> <span>Programming Language:</span>Python</p>
+                                <label>
+                                    <input class="toggle-checkbox" type="checkbox" checked>
+                                    <div class="toggle-switch"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <!-- end Job Information -->
+                        
+                        <!-- start Billing Information -->
+                        <div class="billing-info">
+                            <div class="text">
+                                <p class="title">Billing Information</p>
+                                <p class="payment-title">Payment Method:<span>Paypal </span> </p>
+                                <p class="subs"> Subscription: <span>Monthly</span> </p>
+                            </div>
+                            <div class="email-site">
+                                <p class="email-title"> <span>Email:</span>email@website.com</p>
+                                <label>
+                                    <input class="toggle-checkbox" type="checkbox">
+                                    <div class="toggle-switch"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <!-- end Billing Information -->
+                    </div>
+                </div>
+                <!-- end overview -->
+
+                <!-- start my skills -->
+                <div class="other-data">
+                    <div class="my-skills">
+                        <div class="intro">
+                            <h2>My Skills</h2>
+                            <p>Complete Skills List</p>
+                        </div>
+                        <ul class="skill-row">
+                            <li>HTML</li>
+                            <li>Pugjs</li>
+                            <li>HAML</li>
+                        </ul>
+                        <ul class="skill-row">
+                            <li>CSS</li>
+                            <li>SASS</li>
+                            <li>Stylus</li>
+                        </ul>
+                        <ul class="skill-row">
+                            <li>JavaScript</li>
+                            <li>TypeScript</li>
+                        </ul>
+                        <ul class="skill-row">
+                            <li>Reactjs</li>
+                            <li>Jest</li>
+                        </ul>
+                        <ul class="skill-row">
+                        <li>Jest</li>
+                        <li>Jasmine</li>
+                        </ul>
+                        <ul class="skill-row">
+                            <li>Python</li>
+                            <li>Django</li>
+                        </ul>
+                        <ul class="skill-row">                        
+                        <li>PHP</li>
+                        <li>Laravel</li>
+                        </ul>
+                    </div>
+                    <div class="latest-activities">
+                        <div class="intro">
+                            <h2>Latest Activities</h2>
+                            <p>Latest Activities Done By The User</p>
+                        </div>
+                        <div class="activit-content">
+                            <img src="imgs/activity-01.png" alt="">
+                            <div class="text">
+                                <span class="title">Store</span>
+                                <span>Bought The Mastering Python Course</span>
+                            </div>
+                            <div class="time">
+                                <span class="hour">18:10</span>
+                                <span class="day">Yesterday</span>
+                            </div>
+                        </div>  
+                        <div class="activit-content">
+                            <img src="imgs/activity-02.png" alt="">
+                            <div class="text">
+                                <span class="title">Academy</span>
+                                <span>Got The PHP Certificate</span>
+                            </div>
+                            <div class="time">
+                                <span class="hour">16:05</span>
+                                <span class="day">Last Monday</span>
+                            </div>
+                        </div>  
+                        <div class="activit-content">
+                            <img src="imgs/activity-03.png" alt="">
+                            <div class="text">
+                                <span class="title">Badges</span>
+                                <span>Unlocked The 10 Skills Badge</span>
+                            </div>
+                            <div class="time">
+                                <span class="hour">12:45</span>
+                                <span class="day">Last Wednesday</span>
+                            </div>
+                        </div>  
+                        <div class="activit-content">
+                            <img src="imgs/activity-01.png" alt="">
+                            <div class="text">
+                                <span class="title">Store</span>
+                                <span>Bought The Typescript Course</span>
+                            </div>
+                            <div class="time">
+                                <span class="hour">20:50</span>
+                                <span class="day">Last Friday</span>
+                            </div>
+                        </div>  
+                    </div>
+
+                </div>
+                <!-- end my skills -->
+            </div>        
+        </div>
+    </div>   
+</body>
+</html>
+<!-- <div class="email-foot"></div> -->
